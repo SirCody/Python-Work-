@@ -1,0 +1,9 @@
+#traversing through strings
+
+fruit = "Banana"
+
+index = 0
+while index < len(fruit):
+  letter = fruit[index] #Setting the new variable to the current index of the fruit variable. this changes in the loop
+  print(letter)
+  index = index + 1
